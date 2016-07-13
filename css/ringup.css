@@ -1,0 +1,118 @@
+	*{
+		margin:0;
+		padding: 0;
+		text-decoration: none;
+		font-family: "微软雅黑";
+		list-style-type: none;
+	}
+	a,span,i,em{
+		display:inline-block;
+	}
+	img{
+		display: block;
+	}
+	a{
+		color: #fff;
+	}
+	
+	header{	
+		width: 100%;
+		font-size: 1.2rem;
+		color: #fff;
+		line-height: 3rem;
+		text-align: center;
+	}
+	.input{
+		display: block;
+		width: 85%;
+		margin: 0 auto;
+		height: 3rem;
+		background: #fff;
+		font-size: 1rem;
+		border: none;
+		outline: none;
+		border-radius: 5px;
+		padding-left: 5%;
+	}
+	input:nth-of-type(1){
+		margin-top: 1rem;
+	}
+	input:nth-of-type(2){
+		margin-top: 0.4rem;
+	}
+	.txttext{
+		width: 90%;
+		height: 2rem;
+		color: red;
+	}
+	.checkbox{
+		width: 1.4rem;
+		height: 1.4rem;
+		vertical-align: top;
+		
+	}
+	div{
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 1rem;
+	}
+	.span{
+		margin-left: 0.2rem;
+		margin-top: 1rem;
+		line-height: 1.2rem;
+	}
+	.pan{
+		margin-left: 1rem;
+		color: #fd477a;
+		margin-top: 1rem;
+	}
+	#ringup{
+		width: 90%;
+		background: #c60808;
+		font-size: 1rem;
+		line-height: 3rem;
+		margin: 0 auto;
+		text-align: center;
+		line-height: 3rem;
+		color: #fff;
+		border-radius: 0.4rem;
+		margin-top: 2rem;
+	}
+	#signin{
+		width: 90%;
+		background: #3b3b3b;
+		font-size: 1rem;
+		line-height: 3rem;
+		text-align: center;
+		line-height: 3rem;
+		margin: 0 auto;
+		color: #fff;
+		border-radius: 0.4rem;
+		margin-top: 0.5rem;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

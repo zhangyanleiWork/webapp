@@ -1,0 +1,1 @@
+var oRingup=document.getElementById("ringup");oRingup.addEventListener("touchstart",function(){console.log("你已经注册了,太棒了,！")});

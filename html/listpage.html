@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<!--移动端自适应-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<!--不可以缩放-->
+		<meta name="format-detection" content="telephone=no" />
+		<title>列表页</title>
+		<!--使用rem-->
+		<script type="text/javascript">
+			document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth / 20 + "px";
+		</script>
+		<!--移动端框架-->
+		<script src="../js/zepto.js"></script>
+		<!--手机端事件框架-->
+		<script src="../js/touch.js"></script>
+		<!--移动设备上的手势识别与事件库-->
+		<link rel="stylesheet" href="../css/listpage.css" />
+		<link rel="stylesheet" href="../cssmini/less.css" />
+		<!--图标引用-->
+		<style type="text/css">
+			@font-face {
+				font-family: 'iconfont';
+				src: url('iconfont.eot');
+				/* IE9*/
+				src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+				url('iconfont.woff') format('woff'), /* chrome、firefox */
+				url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+				url('iconfont.svg#iconfont') format('svg');
+				/* iOS 4.1- */
+			}
+			
+			.iconfont {
+				font-family: "iconfont";
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>新品上市<i class="iconfont">&#xe60a;</i></header>
+		<article>
+			<section id="list"></section>
+			<section id="detail"></section>
+		</article>
+		<footer>
+			<dl>
+				<dt class="iconfont">&#xe605;</dt>
+				<dd>首页</dd>
+			</dl>
+			<dl>
+				<dt class="iconfont">&#xe602;</dt>
+				<dd>分类</dd>
+			</dl>
+			<dl>
+				<dt class="iconfont">&#xe60a;</dt>
+				<dd>购物车</dd>
+			</dl>
+			<dl>
+				<dt class="iconfont">&#xe606;</dt>
+				<dd>我的秀</dd>
+			</dl>
+			<dl>
+				<dt class="iconfont">&#xe608;</dt>
+				<dd>更多</dd>
+			</dl>
+		</footer>
+		<script type="text/javascript" src="../js/listpage.js"></script>
+	</body>
+
+</html>
